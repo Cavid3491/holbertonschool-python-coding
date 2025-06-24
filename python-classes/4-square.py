@@ -31,6 +31,6 @@ class Square:
         """Print the square using '#' character, or a blank line if size is 0."""
         if self.__size == 0:
             print()
-        else:
-            for _ in range(self.__size):
-                print("#" * self.__size)
+            return
+        for _ in range(self.__size):
+            print("#" * self.__size)
